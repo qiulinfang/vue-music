@@ -1,0 +1,37 @@
+{
+  "name": "net-music2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.5.1",
+    "axios": "^1.6.8",
+    "create-keyframe-animation": "^0.1.0",
+    "element-plus": "^2.7.1",
+    "good-storage": "^1.1.1",
+    "lyric-parser": "^1.0.1",
+    "pinia": "^2.1.7",
+    "save": "^2.9.0",
+    "throttle-debounce": "^5.0.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2",
+    "vue3-lazy": "^1.0.0-alpha.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.75.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
