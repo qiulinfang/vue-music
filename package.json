@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@better-scroll/core": "^2.5.1",
+    "@better-scroll/observe-dom": "^2.5.1",
+    "@better-scroll/slide": "^2.5.1",
     "axios": "^1.6.8",
+    "axios-retry": "^4.1.0",
     "create-keyframe-animation": "^0.1.0",
     "element-plus": "^2.7.1",
     "good-storage": "^1.1.1",
@@ -27,6 +30,7 @@
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
+    "@types/good-storage": "^1.1.2",
     "@types/node": "^20.12.7",
     "@vitejs/plugin-vue": "^5.0.4",
     "sass": "^1.75.0",
