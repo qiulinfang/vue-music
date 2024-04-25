@@ -1,14 +1,14 @@
 <template>
-  
+  <div>
+    Top-list
+  </div>
 </template>
 
-<script  lang="ts">
+<script lang="ts">
 import { defineComponent, PropType, ref } from 'vue'
 export default defineComponent({
-  name: 'Add-song',
+  name: 'Top-list',
 })
 </script>
 
-<style>
-
-</style>
+<style></style>

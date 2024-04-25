@@ -1,11 +1,13 @@
 <template>
-  
+  <div>
+    Album
+  </div>
 </template>
 
 <script  lang="ts">
-import { defineComponent, PropType, ref } from 'vue'
+import { defineComponent} from 'vue'
 export default defineComponent({
-  name: 'Add-song',
+  name: 'Album',
 })
 </script>
 

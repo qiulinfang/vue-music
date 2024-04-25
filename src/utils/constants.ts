@@ -1,8 +1,7 @@
-const { VUE_APP_API_URL } = process.env
+// 直接使用import.meta.env访问环境变量
+export const NODE_ENV = import.meta.env.VITE_NODE_ENV;
+export const API_URL = import.meta.env.VITE_API_URL;
 
-export const NODE_ENV: string = process.env.NODE_ENV // 环境变量
-
-export const API_URL: string = VUE_APP_API_URL // 接口 url
 
 export const SINGER_KEY = '__singer__'
 

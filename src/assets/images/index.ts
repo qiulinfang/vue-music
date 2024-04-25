@@ -1,6 +1,8 @@
+import image from './default.png';
+import loading from './loading.gif';
 const images = {
-  default: require('./default.png'),
-  loading: require('./loading.gif')
+  default: image,
+  loading: loading
 }
 
 export default images
